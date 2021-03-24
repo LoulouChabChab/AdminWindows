@@ -55,3 +55,10 @@ L’espace disque n’est plus limité par les caractéristiques des serveurs, e
 Les ressources de stockage ainsi mutualisées donnent la possibilité de mettre en œuvre des fonctions de réplication (copie de données synchrone ou asynchrone entre deux baies) et de snapshot (duplication d’un volume pour l’utiliser sur un autre serveur ou pour le sauvegarder par exemple). Ces fonctions permettent de sécuriser les données (implantation physique dans des locaux distants) et d’optimiser la disponibilité des applications. Ces fonctions sont réalisées de façon transparente pour les serveurs, et la réplication et la copie de données n’affectent pas les ressources du serveur, puisqu’elles sont réalisées au niveau des contrôleurs SAN.
 
 Certaines solutions SAN disposent de possibilité de transfert de données à distance, typiquement sur un site distant dans le cadre d’un plan de continuité d’activité (PCA).
+
+
+## ZFS
+ZFS est un système de fichiers open source sous licence CDDL.
+
+Les caractéristiques de ce système de fichiers sont sa très haute capacité de stockage, l'intégration de tous les concepts précédents concernant les systèmes de fichiers
+[pas clair] et la gestion de volume. Il intègre Files-11 (en)la structure On-Disk[Quoi ?], il est léger et permet facilement la mise en place d'une plateforme de gestion de stockage.
