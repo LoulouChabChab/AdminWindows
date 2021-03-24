@@ -1,4 +1,4 @@
-## Hypervisuer de type 1
+## Hyperviseur de type 1
 Par abus de langage, lorsque l'on parle d'hyperviseur on parle généralement de ce type d'hyperviseur.
 
 La principale caractéristique d'un hyperviseur de type 1 c'est qu'il s'installe directement sur la couche matérielle du serveur. Au démarrage d'une machine physique, 
